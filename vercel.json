@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://cybertrace-ai-h12o.onrender.com/api/:path*"
+    }
+  ]
+}
