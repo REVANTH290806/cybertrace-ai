@@ -4,7 +4,7 @@ import {
   IngestionStats, AnalyticsData
 } from "../types";
 
-const API_BASE = "/api";
+const API_BASE = "https://cybertrace-ai-h12o.onrender.com/api";
 
 async function handleResponse<T>(res: Response): Promise<T> {
   if (!res.ok) {
