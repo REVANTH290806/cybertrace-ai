@@ -6,7 +6,7 @@
       "destination": "https://cybertrace-ai-h12o.onrender.com/api/:path*"
     },
     {
-      "source": "/((?!api/).*)",
+      "source": "/((?!api/.*).*)",
       "destination": "/index.html"
     }
   ]
